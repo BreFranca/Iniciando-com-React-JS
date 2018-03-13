@@ -7,7 +7,7 @@ import registerServiceWorker from './registerServiceWorker';
 import HelloWorld from './HelloWorld';
 
 ReactDOM.render(
-    <HelloWorld />,
+    <HelloWorld txt = 'Hello World from Component React.js by Breno Franca' />,
     document.getElementById('root')
 );
 // ReactDOM.render(<App />, document.getElementById('root'));
